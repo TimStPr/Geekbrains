@@ -9,11 +9,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-
-            p1.PositionX = 1;
-            p1.PositionY = 2;
-            p1.Symbol = '*';
+            Point p1 = new Point(1,2,'*');
             p1.DrawSymbol();
 
             Console.ReadLine();
