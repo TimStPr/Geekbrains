@@ -55,5 +55,11 @@ namespace Snake
             Console.SetCursorPosition(positionX, positionY);
             Console.Write(symbol);
         }
+
+        public void Clear()
+        { 
+            symbol = ' ';
+            DrawSymbol();
+        }
     }
 }
