@@ -22,7 +22,6 @@ namespace Snake
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             base.Draw();
-            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
