@@ -61,5 +61,10 @@ namespace Snake
             symbol = ' ';
             DrawSymbol();
         }
+
+        internal bool IsHit(Point p)
+        {
+            return p.positionX ==this.positionX && p.positionY == positionY;
+        }
     }
 }
